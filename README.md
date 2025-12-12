@@ -9,11 +9,11 @@ Interpretability analysis using **SHAP** revealed physically meaningful patterns
 
 ## Repository Contents
 This repository provides open resources for reproducibility and benchmarking:
-- **Benchmark datasets** for evaluating GPT-OSS and other LLM-based scientific data-extraction agents
-- **All dataset variations** generated during feature filtering, engineering, and preprocessing
-- The **best-performing multiclass model** (predicting crystal-structure classes)
-- The **best-performing binary model** (predicting single-phase vs. multiphase formation)
+- **Benchmark datasets** for evaluating the created GPT-OSS-120B agents;
+- **All dataset variations** generated during feature filtering, engineering, and preprocessing;
+- The **best-performing multiclass model** and **best-performing binary model**.
 
 ## Citation
 
 ## Contact
+E-mail: santos.arthur@aluno.ufabc.edu.br
