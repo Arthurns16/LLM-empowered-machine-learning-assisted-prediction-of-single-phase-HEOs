@@ -1,4 +1,4 @@
-# LLM-empowered Machine-Learning-Assisted Prediction of Single-Phase High-Entropy Oxides (HEOs)
+# Rational Design of Single-Phase High Entropy Oxides via Large Language Model Data Mining and Explainable Machine Learning
 
 ## Summary
 This study leverages the large language model **GPT-OSS-120B** to automatically extract high-entropy oxide (HEO) data from scientific literature with **96% accuracy**, enabling the construction of high-quality machine-learning datasets.
@@ -16,4 +16,5 @@ This repository provides open resources for reproducibility and benchmarking:
 ## Citation
 
 ## Contact
+
 E-mail: santos.arthur@aluno.ufabc.edu.br
