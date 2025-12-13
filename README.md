@@ -9,7 +9,7 @@ Interpretability analysis using **SHAP** revealed physically meaningful patterns
 
 ## Repository Contents
 This repository is organized to support reproducibility while keeping the structure concise:
-- **Benchmark datasets** used to evaluate GPT-OSS-120B extraction accuracy.
+- **Benchmark datasets** used to evaluate GPT-OSS-120B agents.
 - **Primary and featurized datasets**, including engineered and feature-selected variants used for modeling.
 - **Automated pipelines** for feature engineering, feature selection, and batch model training with cross-validated hyperparameter tuning.
 - **Trained machine-learning models**, including the best-performing multiclass XGBoost classifier and a binary neural-network model.
@@ -20,4 +20,5 @@ This repository is organized to support reproducibility while keeping the struct
 ## Contact
 
 E-mail: santos.arthur@aluno.ufabc.edu.br
+
 
