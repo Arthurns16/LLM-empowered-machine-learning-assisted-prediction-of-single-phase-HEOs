@@ -8,13 +8,16 @@ Building on this optimal dataset, a **binary neural-network classifier** reached
 Interpretability analysis using **SHAP** revealed physically meaningful patterns, demonstrating that the methodology not only delivers strong predictive performance but also provides insights into the mechanisms of HEO phase formation.
 
 ## Repository Contents
-This repository provides open resources for reproducibility and benchmarking:
-- **Benchmark datasets** for evaluating the created GPT-OSS-120B agents;
-- **All dataset variations** generated during feature filtering, engineering, and preprocessing;
-- The **best-performing multiclass model** and **best-performing binary model**.
+This repository is organized to support reproducibility while keeping the structure concise:
+- **Benchmark datasets** used to evaluate GPT-OSS-120B extraction accuracy.
+- **Primary and featurized datasets**, including engineered and feature-selected variants used for modeling.
+- **Automated pipelines** for feature engineering, feature selection, and batch model training with cross-validated hyperparameter tuning.
+- **Trained machine-learning models**, including the best-performing multiclass XGBoost classifier and a binary neural-network model.
+- **Evaluation artifacts**, such as test-set metrics, classification reports, and dataset/model metadata.
 
 ## Citation
 
 ## Contact
 
 E-mail: santos.arthur@aluno.ufabc.edu.br
+
