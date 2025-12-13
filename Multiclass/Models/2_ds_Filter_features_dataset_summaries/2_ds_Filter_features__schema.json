@@ -1,0 +1,40 @@
+{
+  "dataset_id": "2_ds_Filter_features",
+  "n_rows": 344,
+  "n_features": 21,
+  "n_classes": 7,
+  "classes": [
+    "fluorite",
+    "multiphase",
+    "others",
+    "perovskite",
+    "pyrochlore",
+    "rock salt",
+    "spinel"
+  ],
+  "num_cols": [
+    "atomic_ea_max",
+    "atomic_en_allredroch_sum",
+    "atomic_en_sanderson_max",
+    "atomic_hfu_max",
+    "atomic_radius_max",
+    "atomic_radius_calculated_max",
+    "atomic_radius_calculated_sum",
+    "atomic_spacegroupnum_mean",
+    "bulk_mod_max",
+    "covalent_rad_emp_max",
+    "covalent_rad_emp_sum",
+    "density_of_solid_max",
+    "electrical_resist_max",
+    "rigidity_mod_max",
+    "van_der_waals_rad_mean",
+    "entalpia_oxides_min",
+    "entropia_oxides_min",
+    "deltaCp_oxides_max",
+    "oxidation_sum",
+    "Z_max",
+    "Z_sum"
+  ],
+  "cat_cols": [],
+  "target": "phase_disambiguated"
+}
