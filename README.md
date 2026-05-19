@@ -23,41 +23,6 @@ This repository is organized to support reproducibility while keeping the struct
   author    = "da Silva Sousa Santos, Arthur and Stojanovska, Elena and Alves,
                Jr, Antonio Augusto and de Paula, Amauri Jardim and de Florio,
                Daniel Zanetti and de Almeida, James Moraes",
-  abstract  = "The rational design of high-entropy oxides (HEOs) is currently
-               hindered by the scarcity of structured property data in the
-               scientific literature. In this work, we present an end-to-end
-               materials informatics framework that couples large language
-               model (LLM) data mining with interpretable machine learning to
-               predict single-phase stability in HEOs. We deployed agents based
-               on gpt-oss-120b to extract compositions, phases, and synthesis
-               methods from unstructured scientific abstracts. Combined with
-               regular-expression routines, the LLM-based agent achieved an
-               accuracy of 96\% in database generation despite the complexity
-               of the task, including on-the-fly inference of relative cation
-               proportions. Subsequently, a range of machine-learning models
-               was trained in an exploratory multiclass classification setting
-               to distinguish canonical HEO crystal structures using several
-               variants of the primary databases obtained by combining
-               different feature subsets. For this task, an XGBoost classifier
-               achieved an F1-score of 86\% in a seven-class classification
-               problem, and the best-performing database variant combined
-               primary and statistical features. This optimal database
-               representation was then used to train a neural-network binary
-               classifier to distinguish perovskite from nonperovskite
-               compositions, achieving 97.9\% classification accuracy on the
-               test set, whereas the Goldschmidt tolerance factor reached only
-               67.3\% on the same data. These results indicate that the
-               proposed methodology can support the design of HEO compositions
-               with target properties and substantially outperforms traditional
-               descriptor-based approaches. Furthermore, SHAP (SHapley Additive
-               exPlanations) analysis revealed that high-entropy perovskite
-               phase stability is governed by a critical interplay between
-               geometric factors, such as the sum of cation radii, and
-               electronic descriptors, including Sanderson electronegativity
-               and atomization enthalpy. Overall, these findings demonstrate
-               that LLM-driven data mining can overcome data bottlenecks and
-               enable the discovery of physical design rules for complex,
-               multicomponent ceramics.",
   journal   = "J. Chem. Inf. Model.",
   publisher = "American Chemical Society (ACS)",
   volume    =  66,
