@@ -15,24 +15,10 @@ This repository is organized to support reproducibility while keeping the struct
 - **Trained machine-learning models**, including the best-performing multiclass XGBoost classifier and a binary neural-network model.
 - **Evaluation artifacts**, such as test-set metrics, classification reports, and dataset/model metadata.
 
-## Citation
+## Link DOI
 
-@ARTICLE{Da_Silva_Sousa_Santos2026-cn,
-  title     = "Rational design of single-phase high-entropy oxides via large
-               language model data mining and explainable machine learning",
-  author    = "da Silva Sousa Santos, Arthur and Stojanovska, Elena and Alves,
-               Jr, Antonio Augusto and de Paula, Amauri Jardim and de Florio,
-               Daniel Zanetti and de Almeida, James Moraes",
-  journal   = "J. Chem. Inf. Model.",
-  publisher = "American Chemical Society (ACS)",
-  volume    =  66,
-  number    =  9,
-  pages     = "5234--5248",
-  month     =  may,
-  year      =  2026,
-  copyright = "https://creativecommons.org/licenses/by/4.0/",
-  language  = "en"
-}
+https://doi.org/10.1021/acs.jcim.6c00752
+
 
 
 ## Contact
